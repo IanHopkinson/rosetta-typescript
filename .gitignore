@@ -4,3 +4,5 @@ node_modules
 # Ignore built ts files
 dist/**/*
 
+# Built documentation
+docs

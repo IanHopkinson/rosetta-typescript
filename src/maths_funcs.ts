@@ -1,5 +1,5 @@
 /**
- *
+ * Function to add together two numbers
  * @param x
  * @param y
  * @returns
