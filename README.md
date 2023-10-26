@@ -138,7 +138,7 @@ In common with `jest` there are multiple ways of providing configuration. In thi
 }
 ```
 
-Tests are run with:
+Linting is run with:
 
 ```shell
 npm run lint
