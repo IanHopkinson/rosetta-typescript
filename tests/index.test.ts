@@ -7,8 +7,7 @@ const file_path: string = path.join(
   "file_for_word_count_test.txt"
 );
 
-describe("Testing word_statistics function", () => {
-  test("Test file contains six words", () => {
-    expect(word_statistics(file_path)).toBe(6);
-  });
+test("The word count is 6, as expected", async () => {
+  const word_count = await word_statistics(file_path);
+  expect(word_count).toBe(6);
 });

@@ -190,3 +190,17 @@ npm run make-docs
 
 As a personal choice, I use Visual Studio Code. For this project I installed the [eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) extension, the [jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) extension, and the [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension.
 The TypeScipt support is built in to Visual Studio Code. The configuration for Code is found in the `.vscode` directory of this repo.
+
+## Word count
+
+This library implements a simple word count function. It is compiled with
+
+```shell
+npm run compile
+```
+
+And run with:
+
+```shell
+node dist/src/index.js tests/fixtures/file_for_word_count_test.txt
+```
